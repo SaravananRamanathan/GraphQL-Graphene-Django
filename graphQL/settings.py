@@ -41,6 +41,10 @@ INSTALLED_APPS = [
     'api',
 ]
 
+"""#test ok.
+from .schema import schema
+print(schema)
+"""
 GRAPHENE = {
     'SCHEMA':'graphQL.schema.schema'
 }
